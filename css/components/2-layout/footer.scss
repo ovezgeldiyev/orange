@@ -1,0 +1,56 @@
+.footer {
+  background-color: $main;
+  padding: 38px 0 32px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    &-col {
+      display: flex;
+      flex-direction: column;
+      width: calc(33.3% - 20px);
+      max-width: 407px;
+      color: $primary;
+      a {
+        color: $primary;
+        &:hover {
+          color: $red-brown;
+        }
+      }
+    }
+    h5 {
+      margin-bottom: 20px;
+    }
+  }
+}
+// 930px
+@mixin footer-md-lg {
+  .footer {
+    padding: 22px 0 50px;
+    &__inner {
+      flex-wrap: wrap;
+      &-col {
+        width: calc(50% - 20px);
+        max-width: 300px;
+        margin-bottom: 35px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+      h5 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+// 440px
+@mixin footer-xxsm-xsm {
+  .footer {
+    padding: 18px 0 30px;
+    &__inner {
+      &-col {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

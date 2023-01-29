@@ -1,0 +1,305 @@
+// 1460px
+@include xxxlg-xxxxlg {
+  main {
+    margin-top: 255px;
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+}
+// 1380px
+@include xxlg-xxxlg {
+  .auto__container {
+    padding: 0 40px;
+  }
+  h1, h2 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  h3 {
+    font-size: 46px;
+    line-height: 53px;
+  }
+  h4 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  h6 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  body {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  main {
+    margin-top: 215px;
+  }
+  @include header-xxlg-xxxlg;
+  @include nav-xxlg-xxxlg;
+  @include info-xxlg-xxxlg;
+  @include cards-xxlg-xxxlg;
+}
+// 1240px
+@include xlg-xxlg {
+  main {
+    margin-top: 178px;
+  }
+  @include nav-xlg-xxlg;
+  @include header-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include gallery-xlg-xxlg;
+  @include about-xlg-xxlg;
+  @include cards-xlg-xxlg;
+}
+// 1180px
+@include xlg-xxlg-extra {
+  @include cards-xlg-xxlg-extra;
+}
+// 1080px
+@include lg-xlg-extra {
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  h1, h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  h3 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  h4 {
+    font-size: 34px;
+    line-height: 39px;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  main {
+    margin-top: 68px;
+  }
+  .modal {
+    padding: 40px;
+    &__close {
+      width: 45px;
+      height: 45px;
+      top: 40px;
+      right: 40px;
+    }
+    .slick {
+      &-arrow {
+        width: 44px;
+        height: 88px;
+        &::before {
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+  @include header-lg-xlg-extra;
+  @include nav-lg-xlg-extra;
+  @include hero-lg-xlg-extra;
+  @include intro-lg-xlg-extra;
+  @include gallery-lg-xlg-extra;
+  @include about-lg-xlg-extra;
+  @include info-lg-xlg-extra;
+}
+// 1024px
+@include lg-xlg {
+  @include hero-lg-xlg;
+  @include intro-lg-xlg;
+  @include about-lg-xlg;
+  @include info-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    margin-bottom: 14px;
+  }
+  h1, h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  body {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .button {
+    font-size: 15px;
+    line-height: 19px;
+    padding: 12px 40px;
+  }
+  .modal {
+    padding: 30px;
+    &__close {
+      width: 40px;
+      height: 40px;
+      top: 30px;
+      right: 30px;
+      &::before {
+        height: 4px;
+      }
+      &::after {
+        height: 4px;
+      }
+    }
+    .slick {
+      &-arrow {
+        width: 35px;
+        height: 70px;
+        &::before {
+          width: 12px;
+          height: 12px;
+          border-width: 3px;
+        }
+      }
+    }
+  }
+  @include hero-md-lg;
+  @include intro-md-lg;
+  @include about-md-lg;
+  @include info-md-lg;
+  @include cards-md-lg;
+  @include footer-md-lg;
+}
+// 820px
+@include sm-md-extra {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h1, h2 {
+      font-size: 45px;
+      line-height: 50px;
+    }
+    @include gallery-sm-md-extra;
+}
+// 700px
+@include sm-md {
+  .auto__container {
+    padding: 0 25px;
+  }
+  h1, h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  @include hero-sm-md;
+  @include gallery-sm-md;
+  @include cards-sm-md;
+}
+// 630px
+@include xsm-sm-extra {
+  @include cards-xsm-sm-extra;
+  @include gallery-xsm-sm-extra;
+}
+// 560px
+@include xsm-sm {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h1, h2 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    h3 {
+      font-size: 27px;
+      line-height: 33px;
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    h6 {
+      font-size: 19px;
+      line-height: 23px;
+    }
+    body {
+      font-size: 14px;
+      line-height: 25px;
+    }
+    main {
+      margin-top: 60px;
+    }
+    .modal {
+      padding: 18px;
+      &__close {
+        width: 26px;
+        height: 26px;
+        top: 18px;
+        right: 18px;
+        &::before {
+          height: 3px;
+        }
+        &::after {
+          height: 3px;
+        }
+      }
+      .slick {
+        &-arrow {
+          width: 22px;
+          height: 44px;
+          &::before {
+            width: 10px;
+            height: 10px;
+            border-width: 2px;
+          }
+        }
+      }
+    }
+    @include nav-xsm-sm;
+    @include header-xsm-sm;
+    @include hero-xsm-sm;
+    @include about-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  .auto__container {
+    padding: 0 15px;
+  }
+  h1, h2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  h1 {
+    margin-bottom: 6px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  h4 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 35px;
+  }
+  @include hero-xxsm-xsm;
+  @include intro-xxsm-xsm;
+  @include about-xxsm-xsm;
+  @include info-xxsm-xsm;
+  @include footer-xxsm-xsm;
+}
